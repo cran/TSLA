@@ -1,4 +1,4 @@
-309e3f595137d9a853b9d119c72b4a01 *DESCRIPTION
+26d8369e614ca32adacffc578a86b789 *DESCRIPTION
 4663e45f30c39a4425bd6b2a234fcec9 *NAMESPACE
 f0df4200e37b6dad0b61930b5643332b *R/RcppExports.R
 62197a196bb2e2883c30ff872c9dcbae *R/TSLA-package.R
@@ -30,4 +30,4 @@ e91a50fa908f04a5fd4dbfb5b1e1e95f *man/predict_cvTSLA.Rd
 2a6f9e9e044a78154d3cfda5936d6f48 *src/Makevars
 2a6f9e9e044a78154d3cfda5936d6f48 *src/Makevars.win
 810e486f08c4cf9a279d29223f0afe51 *src/RcppExports.cpp
-113a733d4a0c02cfd068f830bcc70def *src/SPGlinear.cpp
+aa369928bcd37656f45025b4e64892ad *src/SPGlinear.cpp

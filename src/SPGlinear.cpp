@@ -20,7 +20,7 @@ arma::vec shrinkGroupCpp(arma::vec u, arma::mat g_idx) {
   int V = g_idx.n_rows;
   for(int v = 0; v < V; v ++) {
     arma::vec idx = g_idx.row(v).cols(0, 1).t();
-    arma::vec unorm = max(ones(1), sqrt(sum(pow(u.rows(idx(0) - 1, idx(1) - 1), 2))));
+    arma::vec unorm = max(ones(1), arma::vec{ sqrt(sum(pow(u.rows(idx(0) - 1, idx(1) - 1), 2))) } );
     R.rows(idx(0) - 1, idx(1) - 1) = u.rows(idx(0) - 1, idx(1) - 1) / as_scalar(unorm);
   }
   return(R);
